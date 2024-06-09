@@ -75,36 +75,6 @@ const SideNav = () => {
                     </DropdownLink >
                     ))}
                     
-                    {/* <DropdownLink className1=" h-[20px]" href="/" content={<Esto className='flex justify-start' img="https://i.ibb.co/r0kRyF5/Frame-56-1.png" />} >
-                        <li className='list-none font-bold text-[#b6b6b6] uppercase'>adhesion</li>
-                    </DropdownLink >
-                    <DropdownLink className1=" h-[20px]" href="/" content={<Esto className='flex justify-start' img="https://i.ibb.co/Nr6wvWN/Frame-57-1.png" />} >
-                        <li className='list-none font-bold text-[#b6b6b6] uppercase'>b-mecha</li>
-                    </DropdownLink >
-                    <DropdownLink className1=" h-[20px]" href="/" content={<Esto className='flex justify-start' img="https://i.ibb.co/tccK8fZ/b.png" />} >
-                        <li className='list-none font-bold text-[#b6b6b6] uppercase'>blob</li>
-                    </DropdownLink >
-                    <DropdownLink className1=" h-[20px]" href="/" content={<Esto className='flex justify-start' img="https://i.ibb.co/RY63275/f.png" />} >
-                        <li className='list-none font-bold text-[#b6b6b6] uppercase'>bunker</li>
-                    </DropdownLink >
-                    <DropdownLink className1=" h-[20px]" href="/" content={<Esto className='flex justify-start' img="https://i.ibb.co/4t26C9g/n.png" />} >
-                        <li className='list-none font-bold text-[#b6b6b6] uppercase'>caniche</li>
-                    </DropdownLink >
-                    <DropdownLink className1=" h-[20px]" href="/" content={<Esto className='flex justify-start' img="https://i.ibb.co/17cMrT5/k.png" />} >
-                        <li className='list-none font-regular text-[#b6b6b6] uppercase'>carpenter</li>
-                    </DropdownLink >
-                    <DropdownLink className1=" h-[20px]" href="/" content={<Esto className='flex justify-start' img="https://i.ibb.co/09tz29z/l.png" />} >
-                        <li className='list-none font-regular text-[#b6b6b6] uppercase'>curia</li>
-                    </DropdownLink >
-                    <DropdownLink className1=" h-[20px]" href="/" content={<Esto className='flex justify-start' img="https://i.ibb.co/nPNpKtk/w.png" />} >
-                        <li className='list-none font-regular text-[#b6b6b6] uppercase'>ffflauta</li>
-                    </DropdownLink >
-                    <DropdownLink className1=" h-[20px]" href="/" content={<Esto className='flex justify-start' img="https://i.ibb.co/TMhctwd/s.png" />} >
-                        <li className='list-none font-regular text-[#b6b6b6] uppercase'>trovador</li>
-                    </DropdownLink >
-                    <DropdownLink className1=" h-[20px]" href="/" content={<Esto className='flex justify-start' img="https://i.ibb.co/HFFf9zx/x.png" />} >
-                        <li className='list-none font-regular text-[#b6b6b6] uppercase'>xer0</li>
-                    </DropdownLink > */}
                 </div>
 
             </main>
