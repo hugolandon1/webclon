@@ -67,14 +67,14 @@ const SideNav = () => {
 
             <main className="">
                 <h1 className="uppercase text-[#d3d3d3] font-bold pl-6 font-mono text-[20px]">- typefaces</h1>
-                
+
                 <div className='flex flex-col gap-3  mt-4'>
                     {links.map(link => (
                         <DropdownLink key={link.title} className1=" h-[20px]" href={link.href} content={<Esto className='flex justify-start' img={link.img} />} >
                             <li className='list-none  font-bold text-[#b6b6b6] uppercase'>{link.title}</li>
-                    </DropdownLink >
+                        </DropdownLink >
                     ))}
-                    
+
                 </div>
 
             </main>

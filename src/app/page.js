@@ -6,7 +6,11 @@ export default function Home() {
 
     <div className="bg-[#1b1b1b] h-screen">
       <div className="flex justify-center">
-        {/* <Image src="https://i.ibb.co/DrnxP8C/Leonardo-Vision-XL-ultra-white-pale-skin-face-sprayed-with-mil-1-31.jpg" width={1500} height={1500} alt="fondito" /> */}
+      <div className="h-screen">
+            <video width="3000" height="400" controls="false" autoPlay muted loop>
+                <source src="https://res.cloudinary.com/dm2lcbsw2/video/upload/v1717907955/alexnadia_oficial--_unnajz.mp4" type="video/mp4" />
+            </video>
+        </div>
         <h2>ESTO ES UN HOME</h2>
       </div>
     </div>
