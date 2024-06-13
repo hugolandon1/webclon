@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Contact = () => {
     return (
-      <div className="h-screen">
-        <Image className="" src="https://res.cloudinary.com/dm2lcbsw2/image/upload/v1717909568/Leonardo_Vision_XL_perspective_photo_in_a_fake_forest_similar_2_tmtpdb.jpg" alt="Contact" width={"1000"} height={"1000"} />
+      <div className="">
+        <Image src="https://i.ibb.co/1rzF6hk/Frame-142-1.png" width={300} height={300} alt="home" />
       </div>
     )
   }

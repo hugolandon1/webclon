@@ -1,11 +1,10 @@
+import Image from "next/image";
 
 
 const Hombre = () => {
     return (
-        <div className="h-screen" style={{ backgroundImage: `url("https://i.ibb.co/6vg5TQ9/twttewtwgs.png")` }}>
-            <video width="600" height="400" controls="false" autoPlay muted loop>
-                <source src="https://res.cloudinary.com/dm2lcbsw2/video/upload/v1717892917/How_a_Drummer_exit_sabdek.mp4" type="video/mp4" />
-            </video>
+        <div className="">
+            <Image src="https://i.ibb.co/1rzF6hk/Frame-142-1.png" width={300} height={300} alt="home" />
         </div>
     )
 }

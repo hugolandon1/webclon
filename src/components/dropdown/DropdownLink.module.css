@@ -10,9 +10,9 @@
   .dropdownContainer li:hover {
     /* background-color: #62626240; */
     transition-duration: 300ms;
-    color: #FF5C00;
+    color: #FFCCEE;
     /* transition-duration: 300ms; */
-    border: 1px solid #FF5C00;
+    border: 1px solid #FFCCEE;
     
   }
   .dropdownContainer li {

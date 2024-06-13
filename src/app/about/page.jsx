@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const About = () => {
     return (
-      <div className="h-screen">
-        <Image src="https://res.cloudinary.com/dm2lcbsw2/image/upload/v1717912108/525252555555_qaywho.jpg" alt="imagen" width={1300} height={1300} />
+      <div className="">
+        <Image src="https://i.ibb.co/1rzF6hk/Frame-142-1.png" width={300} height={300} alt="home" />
       </div>
       )
   }
