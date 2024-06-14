@@ -1,4 +1,4 @@
-'use client'
+
 import TopHeader from "@/components/header/TopHeader";
 import "./globals.css";
 import Header from "@/components/header/Header";
@@ -8,6 +8,7 @@ import BannerTop from "@/components/bannerTop/BannerTop";
 import locaFont from "next/font/local"
 import { Lexend_Zetta } from 'next/font/google'
 import Footer from "@/components/footer/Footer";
+import NavDrop from "@/components/navdrop/NavDrop";
 
 export const lexedzetta = Lexend_Zetta({
   weight: '900',
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
       <body className="flex items-center flex-col bg-[#121212]   ">
         
         <div className="flex justify-center">
+          <NavDrop />
           <SideNav />
           <div className="w-full bg-[#121212] ">
             {children}
