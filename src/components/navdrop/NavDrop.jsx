@@ -82,19 +82,29 @@ const NavDrop = () => {
           <IconMarca />
         </Link>
       </div>
-      <div className="z-10 flex  absolute left-10 lg:z-10 lg:left-0 lg:top-0 lg:flex lg:items-center lg:justify-end lg:py-4">
+      <div className="z-10 flex absolute left-10 lg:z-10 lg:left-0 lg:top-0 lg:flex lg:items-center lg:justify-end lg:py-4">
         <button
           onClick={handleToggle}
-          className="flex items-center justify-center w-8 h-8 "
+          className="flex items-center justify-center w-14 h-14 "
         >
-          <svg width="487" height="385" viewBox="0 0 487 385" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="487" height="98.3577" fill="#FCFCFC" />
-            <rect y="143.32" width="487" height="98.3577" fill="#FCFCFC" />
-            <rect y="286.641" width="487" height="98.3577" fill="#FCFCFC" />
-          </svg>
+          {showNav ? (
+            <svg width="500" height="500" viewBox="0 0 609 609" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect y="506.672" width="716.541" height="144.717" transform="rotate(-45 0 506.672)" fill="#FCFCFC" />
+              <rect x="102.332" y="0.00390625" width="716.541" height="144.717" transform="rotate(45 102.332 0.00390625)" fill="#FCFCFC" />
+            </svg>
+
+
+
+          ) : (
+            <svg className="w-14 h-14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="6" width="18" height="2" fill="#FCFCFC" />
+              <rect x="3" y="11" width="18" height="2" fill="#FCFCFC" />
+              <rect x="3" y="16" width="18" height="2" fill="#FCFCFC" />
+            </svg>
+          )}
 
         </button>
-        
+
       </div>
       <div
         className={`lg:flex lg:items-center lg:justify-end lg:py-4 fixed bg-black w-[100%] h-[50%] top-0  ${showNav ? 'block' : 'hidden'
