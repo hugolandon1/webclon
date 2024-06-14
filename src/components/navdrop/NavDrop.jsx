@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link';
 import { useState } from 'react';
+import IconMarca from '../icons/IconMarca';
 
 
 const links = [
@@ -14,8 +15,6 @@ const links = [
     title: "mujer",
     href: "/mujer",
     /* img: "https://i.ibb.co/r0kRyF5/Frame-56-1.png" */
-
-
   },
 
   {
@@ -77,31 +76,31 @@ const NavDrop = () => {
   };
 
   return (
-    <nav className="absolute z-10 left-0 top-0 w-full lg:hidden flex bg-black justify-between items-center py-4">
+    <nav className="flex-col fixed z-10 left-0 top-0 w-full lg:hidden flex bg-black justify-between items-center py-4 px-4">
       <div className="flex items-center">
         <Link className="text-2xl text-white font-bold" href="/">
-          Logo
+          <IconMarca />
         </Link>
       </div>
-      <div className="">
+      <div className="z-10 flex  absolute left-10 lg:z-10 lg:left-0 lg:top-0 lg:flex lg:items-center lg:justify-end lg:py-4">
         <button
           onClick={handleToggle}
-          className="flex items-center justify-center w-8 h-8"
+          className="flex items-center justify-center w-8 h-8 "
         >
-          <svg width="592" height="467" viewBox="0 0 592 467" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0.5" y="0.5" width="591" height="466" stroke="white" />
-            <rect x="84" y="97" width="425" height="70" fill="#FCFCFC" />
-            <rect x="84" y="199" width="425" height="70" fill="#FCFCFC" />
-            <rect x="84" y="301" width="425" height="70" fill="#FCFCFC" />
+          <svg width="487" height="385" viewBox="0 0 487 385" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="487" height="98.3577" fill="#FCFCFC" />
+            <rect y="143.32" width="487" height="98.3577" fill="#FCFCFC" />
+            <rect y="286.641" width="487" height="98.3577" fill="#FCFCFC" />
           </svg>
 
         </button>
+        
       </div>
       <div
-        className={`lg:flex lg:items-center lg:justify-end lg:py-4 ${showNav ? 'block' : 'hidden'
+        className={`lg:flex lg:items-center lg:justify-end lg:py-4 fixed bg-black w-[100%] h-[50%] top-0  ${showNav ? 'block' : 'hidden'
           } ${showNav ? 'lg:block' : 'lg:hidden'}`}
       >
-        <ul className="flex flex-col lg:flex-row lg:items-center lg:justify-end">
+        <ul className="flex flex-col justify-cente pt-14 items-center lg:flex-row lg:items-center lg:justify-end">
           {links.map((link, index) => (
             <li key={index}>
               <Link className="text-lg font-bold text-white " href={link.href}>
