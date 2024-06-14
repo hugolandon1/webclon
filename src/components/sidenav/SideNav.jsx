@@ -75,7 +75,7 @@ const links = [
 
 const SideNav = () => {
     return (
-        <div className='w-[250px] pb-[50px] h-fit bg-[#827b1a] ' >
+        <div className=' hidden lg:block  w-[250px] pb-[50px] h-fit bg-[#827b1a] ' >
 
             <main >
                 <h1 className="uppercase text-[#d3d3d3] font-bold pl-6  text-[20px]">- typefaces</h1>
