@@ -14,10 +14,10 @@ export default function Home() {
   return (
 
     <div className="w-full h-full">
-      <div className="relative">
+      {/* <div className="relative">
         <Image className="absolute" src="https://i.ibb.co/XpCkPzq/Group-43.png" width={1300} height={1300} alt="home" />
         <Image className="" src="https://i.ibb.co/SQ6rFGL/Frame-159.png" width={1300} height={1300} alt="home" />
-      </div>
+      </div> */}
 
       {/* <Image src="https://i.ibb.co/SKn9Cxd/sisisisiais.png" width={1300} height={1300}  alt="home" />
       <Image src="https://i.ibb.co/Y7wyNyW/Default-fashion-sport-sneaker-mockup-white-fashion-green-sport-1-3-1-5x.png" width={1300} height={1300}  alt="home" />

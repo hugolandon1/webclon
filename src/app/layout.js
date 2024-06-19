@@ -24,16 +24,16 @@ export const lexedzetta = Lexend_Zetta({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex items-center flex-col bg-[#A8B4B5]   ">
+      <body className=" h-full w-full flex justify-center items-center max-w-screen-2xl flex-col bg-[#A8B4B5]   ">
 
-        <div className="flex justify-center">
+      
 
-          <div className="w-full bg-[#121212] ">
+          <div className="flex flex-col justify-center items-center w-full bg-[#121212] ">
             <NavDrop />
             <Header />
             {children}
           </div>
-        </div>
+        
 
         <Footer />
       </body>
