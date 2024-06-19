@@ -60,17 +60,6 @@ const Header = () => {
                             </Link>
                         ))}
 
-                        {/* <ul className="flex w-full justify-end items-center ">
-                            {links.map((link) => (
-                                <li className="" key={link.title}>
-                                    <Link className={`p-4 uppercase text-white text-[10px] display-hidden ${pathName === link.href ? "font-bold " : ""}`} href={link.href}>
-                                        {link.title}
-                                    </Link>
-                                </li>
-                            ))}
-
-                        </ul> */}
-
                     </div>
                 </div>
             </nav>

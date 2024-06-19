@@ -13,7 +13,7 @@ const lexedzetta = Lexend_Zetta({
 export default function Home() {
   return (
 
-    <div className="w-full h-full">
+    <div className="flex w-full h-full">
       {/* <div className="relative">
         <Image className="absolute" src="https://i.ibb.co/XpCkPzq/Group-43.png" width={1300} height={1300} alt="home" />
         <Image className="" src="https://i.ibb.co/SQ6rFGL/Frame-159.png" width={1300} height={1300} alt="home" />
