@@ -75,15 +75,15 @@ const links = [
 
 const SideNav = () => {
     return (
-        <div className=' hidden lg:block  w-[250px] pb-[50px] h-fit bg-[#151515] ' >
+        <div className=' hidden lg:block  w-[250px] pb-[50px] h-fit bg-[#A8B4B5] ' >
 
             <main >
-                <h1 className="uppercase text-[#d3d3d3] font-bold pl-6  text-[20px]">- typefaces</h1>
+                <h1 className="uppercase text-[#FFCCEE] font-bold pl-6  text-[20px]">- typefaces</h1>
 
                 <div className='flex flex-col gap-3  mt-4'>
                     {links.map(link => (
                         <DropdownLink key={link.title} className1=" h-[20px]" href={link.href} content={<Esto className='flex justify-start' img={link.img} />} >
-                            <li className='list-none  font-bold text-[#9C9C9C] uppercase'>{link.title}</li>
+                            <li className='list-none  font-bold text-[#FFCCEE] uppercase'>{link.title}</li>
                         </DropdownLink >
                     ))}
 

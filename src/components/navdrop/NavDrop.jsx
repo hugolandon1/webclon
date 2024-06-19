@@ -76,19 +76,19 @@ const NavDrop = () => {
   };
 
   return (
-    <nav className="flex-col fixed z-10 left-0 top-0 w-full lg:hidden flex bg-black justify-between items-center py-4 px-4">
+    <nav className="flex-col fixed z-10 left-0 top-0 w-full lg:items-center lg:hidden flex bg-black justify-between items-center py-4 px-4">
       <div className="flex items-center">
         <Link className="text-2xl text-white font-bold" href="/">
           <IconMarca />
         </Link>
       </div>
-      <div className="z-10 flex absolute left-10 lg:z-10 lg:left-0 lg:top-0 lg:flex lg:items-center lg:justify-end lg:py-4">
+      <div className=" flex absolute left-2 bottom-[7px] lg:z-10 lg:left-0 lg:top-0 lg:bottom-[-50px] lg:flex lg:items-center  ">
         <button
           onClick={handleToggle}
           className="flex items-center justify-center w-14 h-14 "
         >
           {showNav ? (
-            <svg width="500" height="500" viewBox="0 0 609 609" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="609" height="609" viewBox="0 0 609 609" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect y="506.672" width="716.541" height="144.717" transform="rotate(-45 0 506.672)" fill="#FCFCFC" />
               <rect x="102.332" y="0.00390625" width="716.541" height="144.717" transform="rotate(45 102.332 0.00390625)" fill="#FCFCFC" />
             </svg>
@@ -96,7 +96,7 @@ const NavDrop = () => {
 
 
           ) : (
-            <svg className="w-14 h-14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-[70%] md:w-auto md:pb-[10px]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="3" y="6" width="18" height="2" fill="#FCFCFC" />
               <rect x="3" y="11" width="18" height="2" fill="#FCFCFC" />
               <rect x="3" y="16" width="18" height="2" fill="#FCFCFC" />

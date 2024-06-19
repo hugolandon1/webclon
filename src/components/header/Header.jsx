@@ -55,9 +55,8 @@ const Header = () => {
                 <div className="w-full flex justify-end bg-[#121212]">
                     <div className="flex h-full items-center uppercase  list-none text-black gap-10 pr-[20vw]">
                         {links.map((link) => (
-                            <Link className={`text-[12px] text-[#b6b6b6] ${pathName === link.href ? "font-bold text-white" : ""}` } href={link.href} key={link.title}>
-                                {link.title}
-                                
+                            <Link className={`text-[12px] w-[100%] text-[#b6b6b6] hover:font-bold  ${pathName === link.href ? "font-bold text-white" : ""}` } href={link.href} key={link.title}>
+                                {link.title} 
                             </Link>
                         ))}
 
