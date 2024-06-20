@@ -76,7 +76,7 @@ const NavDrop = () => {
   };
 
   return (
-    <nav className="flex-col fixed z-10 left-0 top-0 w-full lg:items-center lg:hidden flex bg-black justify-between items-center py-4 px-4">
+    <nav className="flex-col fixed z-10 left-0 top-0 w-full lg:items-center lg:hidden flex bg-[#12121235] justify-between items-center py-4 px-4">
       <div className="flex items-center">
         <Link className="text-2xl text-white font-bold" href="/">
           <IconMarca />
