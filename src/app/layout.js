@@ -24,7 +24,7 @@ export const lexedzetta = Lexend_Zetta({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="  flex justify-center items-center flex-col bg-[#A8B4B5]   ">
+      <body className=" flex justify-center items-center flex-col bg-[#A8B4B5]   ">
         
         <div className="max-w-[1920px] w-full h-full">
         <NavDrop />

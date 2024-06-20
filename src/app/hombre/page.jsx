@@ -1,15 +1,15 @@
-import Image from "next/image";
+
 
 
 const Hombre = () => {
     return (
-        <div className="">
-            <Image src="https://i.ibb.co/1rzF6hk/Frame-142-1.png" width={1300} height={1300} alt="home" />
-            <Image src="https://i.ibb.co/1rzF6hk/Frame-142-1.png" width={1300} height={1300} alt="home" />
-            <Image src="https://i.ibb.co/1rzF6hk/Frame-142-1.png" width={1300} height={1300} alt="home" />
-            <Image src="https://i.ibb.co/1rzF6hk/Frame-142-1.png" width={1300} height={1300} alt="home" />
-            <Image src="https://i.ibb.co/1rzF6hk/Frame-142-1.png" width={1300} height={1300} alt="home" />
-            <Image src="https://i.ibb.co/1rzF6hk/Frame-142-1.png" width={1300} height={1300} alt="home" />
+        <div className=" w-full h-full flex justify-center items-center">
+            <div className=" bg-black ">
+                <video className="h-full w-full object-cover" width="1600" height="400" autoPlay muted loop>
+                    <source src="https://res.cloudinary.com/dm2lcbsw2/video/upload/v1718752348/modeloprofessional_djq68o.mp4" type="video/mp4" />
+                </video>
+            </div>
+
         </div>
     )
 }

@@ -45,14 +45,14 @@ const Header = () => {
     const pathName = usePathname()
 
     return (
-        <div>
+        <div className="z-40 hidden max-w-[1920px] w-full fixed h-24 lg:block">
             <nav className="h-24 flex">
-                <div className="flex items-center bg-[#121212] pl-[30px]">
+                <div className="flex w-full items-center bg-[#12121235] pl-[30px]">
                     <Link href="/">
                         <IconMarca />
                     </Link>
                 </div>
-                <div className="w-full flex justify-end bg-[#121212]">
+                <div className="w-full flex justify-end bg-[#12121235]">
                     <div className="flex h-full items-center uppercase  list-none text-black gap-10 pr-[20vw]">
                         {links.map((link) => (
                             <Link className={`text-[12px] w-[100%] text-[#b6b6b6] hover:font-bold  ${pathName === link.href ? "font-bold text-white" : ""}` } href={link.href} key={link.title}>
